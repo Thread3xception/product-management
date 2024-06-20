@@ -31,7 +31,7 @@ class ProductServiceTest implements ProductFixture {
     private ProductMapper productMapper;
 
     @InjectMocks
-    private ProductService productService;
+    private ProductServiceImpl productService;
 
 
     @DisplayName("Should get single product")

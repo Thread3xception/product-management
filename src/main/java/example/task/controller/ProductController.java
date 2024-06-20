@@ -3,6 +3,7 @@ package example.task.controller;
 import example.task.model.command.CreateProductCommand;
 import example.task.model.dto.ProductDto;
 import example.task.service.ProductService;
+import example.task.service.ProductServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;
